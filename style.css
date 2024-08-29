@@ -2,18 +2,25 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 99999;
+  overflow-x: hidden;
 }
 
 .jumbotron {
   /* padding: 2rem 1rem; */
   padding-top: 2rem;
   background-color: #e2edff;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .jumbotron img {
@@ -40,6 +47,8 @@
 } */
 
 #project {
+  overflow-x: hidden;
+
   background-color: #e2edff;
 }
 
@@ -48,6 +57,8 @@
 }
 
 #project .row {
+  overflow-x: hidden;
+
   align-items: center;
 }
 
@@ -57,5 +68,7 @@
 
 footer p {
   margin-bottom: 50px;
+  overflow-x: hidden;
+
   color: #e2edff;
 }
