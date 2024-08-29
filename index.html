@@ -12,6 +12,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="style.css" />
     <title>my portfolio</title>
   </head>
@@ -20,11 +23,18 @@
     <section id="home">
       <nav class="navbar navbar-expand-lg navbar-dark shadow bg-primary">
         <div class="container">
-          <a class="navbar-brand fw-bold" href="#"
-            >ANGGA<span class="fw-bold" style="color: rgb(253, 132, 3)"
-              >28</span
-            ></a
-          >
+          <a
+            class="navbar-brand fw-bold"
+            href="#"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            >ANGGA<span
+              class="fw-bold"
+              style="color: rgb(253, 132, 3)"
+              data-aos="fade-up"
+              >2</span
+            ><span class="fw-bold" style="color: rgb(253, 132, 3)">8</span>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -57,6 +67,8 @@
         src="img/1683030198104.jpg"
         alt=""
         class="rounded-circle img-thumbnail"
+        data-aos="fade-down"
+        data-aos-duration="1000"
       />
       <h1 class="display-4">Angga Tri Wardana</h1>
       <p class="lead">Frontend Developer</p>
@@ -76,19 +88,34 @@
     <section id="about">
       <div class="container mb-3">
         <div class="row text-center">
-          <div class="text-center">
+          <div
+            class="text-center"
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-duration="1000"
+          >
             <h2>About me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="1000"
+          >
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               molestiae, unde hic rem harum voluptates tenetur voluptate alias
               iusto optio, illo, amet recusandae quo omnis nesciunt?
             </p>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-duration="1000"
+          >
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
               deserunt recusandae repellendus debitis, saepe reiciendis facilis
@@ -113,11 +140,21 @@
       <div class="container text-center">
         <div class="row mb-3">
           <div class="col">
-            <h2 class="text-center mb-3">my project</h2>
+            <h2
+              class="text-center mb-3"
+              data-aos="fade-down"
+              data-aos-duration="600"
+            >
+              my project
+            </h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-5 mb-3 text-center">
+          <div
+            class="col-md-5 mb-3 text-center"
+            data-aos="flip-up"
+            data-aos-duration="800"
+          >
             <div class="card">
               <img src="img/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -128,7 +165,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3">
+          <div class="col-md-5 mb-3" data-aos="flip-up" data-aos-duration="800">
             <div class="card">
               <img src="img/2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -139,7 +176,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3">
+          <div class="col-md-5 mb-3" data-aos="flip-up" data-aos-duration="800">
             <div class="card">
               <img src="img/3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -150,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 mb-3">
+          <div class="col-md-5 mb-3" data-aos="flip-up" data-aos-duration="800">
             <div class="card">
               <img src="img/4.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -233,6 +270,10 @@
       </p>
     </footer>
     <!-- penutup footer -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
