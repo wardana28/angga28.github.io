@@ -25,7 +25,11 @@
 }
 
 .navbar-brand {
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.navbar-brand span {
+  color: rgb(253, 132, 3);
 }
 
 /* #about {
