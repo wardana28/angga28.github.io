@@ -1,0 +1,54 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.jumbotron {
+  /* padding: 2rem 1rem; */
+  padding-top: 2rem;
+  background-color: #e2edff;
+}
+
+.jumbotron img {
+  margin-top: 100px;
+}
+
+.display-4 {
+  font-weight: 300;
+}
+
+.lead {
+  font-weight: 100;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+/* #about {
+  margin-bottom: 90px;
+} */
+
+#project {
+  background-color: #e2edff;
+}
+
+#project h2 {
+  margin-bottom: 20px;
+}
+
+#project .row {
+  align-items: center;
+}
+
+footer {
+  background-color: #273036;
+}
+
+footer p {
+  margin-bottom: 50px;
+  color: #e2edff;
+}
